@@ -14,6 +14,7 @@ class Artist
 
 def new_song(name, genre)
   newsong = Genre.new(genre)
+  @songs << name
 end
 
 end
