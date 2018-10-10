@@ -17,4 +17,8 @@ def new_song(name, genre)
   @songs << name
 end
 
+def songs
+  @songs
+end
+
 end
